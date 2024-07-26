@@ -7,7 +7,7 @@ on:
   push
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-lat
     steps:
       - uses: actions/checkout@v4
       - run: make say-hello
